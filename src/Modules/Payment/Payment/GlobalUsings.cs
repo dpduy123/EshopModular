@@ -1,0 +1,11 @@
+global using Microsoft.EntityFrameworkCore;
+global using Microsoft.Extensions.DependencyInjection;
+global using Microsoft.Extensions.Configuration;
+global using Microsoft.AspNetCore.Builder;
+global using Shared.Contracts.CQRS;
+global using Shared.Data;
+global using MediatR;
+global using Carter;
+global using Mapster;
+global using Payment.Data;
+global using System.Reflection;
